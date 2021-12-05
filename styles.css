@@ -417,6 +417,11 @@ body {
 
 }
 
+.pricing-table {
+    width: 280px;
+    height: 720px;
+
+}
 .pricing-tables-wrapper {
     display: flex;
     justify-content: space-between;
@@ -430,9 +435,12 @@ body {
 .pricing-table-header {
     margin-top: 33px;
     background: var(--color2);
-    padding: 15px 65px 15px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-size: 22px;
+    height: 80px;
 
 }
 
@@ -463,6 +471,8 @@ body {
     
 }
 
+
+
 .pricing-fields {
     display: flex;
     padding: 20px 0px;
@@ -471,6 +481,14 @@ body {
     border-bottom: 1px solid grey;
     color: var(--color2);
 
+}
+
+.small-price-title {
+    margin-top: 33px;
+    background: var(--color2);
+    padding: 15px 65px 15px 65px;
+    color: white;
+    font-size: 19px;
 }
 
 .pricing-fields img {
