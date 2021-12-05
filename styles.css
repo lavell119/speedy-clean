@@ -68,7 +68,7 @@ body {
 }
 
 .email-container {
-    width: 250px;
+    width: 270px;
     height: 100%;
     border-right: 1px solid white;
     display: flex;
@@ -316,7 +316,7 @@ body {
 
 .section-3 {
     padding: 0px 60px 0px 60px;
-    background-image: url("images/sec2background.jpg");
+    background-image: url("images/sec3background.jpg");
     background-size: cover;
     height: 110vh;
     display: flex;
@@ -349,7 +349,7 @@ body {
 
 .circle {
     border-radius: 100%;
-    background: #aeff99;
+    background: var(--color1);
     height: 160px;
     width: 160px;
     margin: auto;
@@ -501,7 +501,7 @@ body {
 .section-5 {
     height: 77vh;
     width: 100%;
-    background-image: url("images/sec4background.jpg");
+    background-image: url("images/sec5background.png");
     background-size: cover;
     margin-bottom: 240px;
     display: flex;
@@ -624,6 +624,11 @@ legend {
     gap: 15px;
 }
 
+#logo {
+    width: 150px;
+    height: auto;
+}
+
 .footer {
     display: flex;
     align-items: center;
@@ -743,12 +748,17 @@ legend {
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    background: #21a04c;
+    background: var(--color1);
 
 }
 
 .social-circle:hover {
-    background: var(--color1);
+    background: 
+}
+
+
+.social-circle:hover {
+    background: #21a04c;
 }
 
 
