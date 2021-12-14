@@ -3,14 +3,14 @@
 }
 
 :root {
-    --color1:#77da15;
+    --color1: #1AD718;
     --color2: #0A4997;
 }
 
 
-button {
-    background: var(--color1);
-    font-weight: bold;
+body button {
+    background: var(--color1); 
+    cursor: pointer;
 }
 
 button:hover {
@@ -115,6 +115,7 @@ body {
 .award-txt {
     display: flex;
     flex-direction: column;
+    color: #0A4997;
 }
 
 .award-txt-title {
@@ -152,6 +153,11 @@ body {
     align-items: center;
     font-weight: 550;
     font-size: 17px;
+}
+
+.nav span:hover {
+    color: var(--color1);
+    cursor: pointer;
 }
 
 .appointment {
@@ -403,7 +409,7 @@ body {
 
 
 .section-4 {
-    height: 135vh;
+    height: 140vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -759,6 +765,10 @@ legend {
     font-size: 17px;
 }
 
+.footer-nav div:hover {
+    color: #0A4997;
+}
+
 .social-circle {
     display: flex;
     align-items: center;
@@ -770,9 +780,7 @@ legend {
 
 }
 
-.social-circle:hover {
-    background: 
-}
+
 
 
 .social-circle:hover {
